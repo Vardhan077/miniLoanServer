@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 app.use(express.json());
 app.use(cors(
   {
-    origin: ["https://mini-loan-app-u9nx.vercel.app/","http://localhost:3000","mongodb://localhost:27017/"],
+    origin: ["https://mini-loan-app-u9nx.vercel.app/","https://miniloanapp.netlify.app/","http://localhost:3000"],
     methods: ["POST", "GET","PUT","DELETE"],
     credentials: true
   }
